@@ -1,0 +1,11 @@
+<% layout('./layouts/layout.eta') %>
+
+
+<p> This is a quiz app, where you can test your knowledge in different topics. </p>
+<p> Number of topics: <%= it.topics.length %> </p>
+<p> Number of questions: <%= it.questions.length %> </p>
+<p> Number of answer options: <%= it.options.length %> </p>
+<p> Number of answers from users: <%= it.answers.length %> </p>
+
+<a href="/auth/login">Login</a><br/>
+<a href="/auth/register">Register</a><br/>

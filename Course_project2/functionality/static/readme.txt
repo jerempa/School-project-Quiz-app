@@ -1,0 +1,1 @@
+No static content added for this project

@@ -1,0 +1,11 @@
+<% layout("./layouts/layout.eta") %>
+
+
+<% if (it.boolean) { %>
+    <p> Correct! </p>
+<% } else { %>
+    <p> Incorrect!</p>
+    <p> The correct answer was: <%= it.answer %>.</p>
+<% } %>
+
+<a href="/quiz/<% = it.topic_id %>">Next question</a><br/>
